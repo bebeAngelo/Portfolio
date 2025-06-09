@@ -31,7 +31,7 @@ export default function About() {
           <div className="space-y-6">
             <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700">
               <h4 className="text-xl font-semibold text-purple-400 mb-2">Experience</h4>
-              <p className="text-gray-300">Built 3 web applications and 5 responsive websites using React, Next.js, and Angular with 3 years of front-end experience.</p>
+              <p className="text-gray-300">Built 3 web applications and 5 responsive websites using React, Next.js.</p>
             </div>
             <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700">
               <h4 className="text-xl font-semibold text-purple-400 mb-2">Projects</h4>
