@@ -1,6 +1,7 @@
 import Header from "./portfolio"
 import About from "./portfolio/about"
 import Hero from "./portfolio/hero"
+import Skills from "./portfolio/skills"
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Header />
             <Hero />
             <About />
+            <Skills />
         </div>
     )
 }
