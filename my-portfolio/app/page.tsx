@@ -1,6 +1,7 @@
 import Header from "./portfolio"
 import About from "./portfolio/about"
 import Hero from "./portfolio/hero"
+import Projects from "./portfolio/projects"
 import Skills from "./portfolio/skills"
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
             <Hero />
             <About />
             <Skills />
+            <Projects />
         </div>
     )
 }
