@@ -3,18 +3,18 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce platform built with React, Next.js, and Stripe integration.",
+    title: "JobsQ",
+    description: "A modern job board platform built with React, Next.js, and TypeScript.",
     image: "/img/jaypee1.png",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates.",
+    title: "Rental Management System (RMS)",
+    description: "A comprehensive rental management system built with React, Next.js, and Firebase.",
     image: "/img/jaypee1.png",
-    technologies: ["React", "Firebase", "Material-UI", "Redux"],
+    technologies: ["React", "Material-UI", "Node.js", "Firebase"],
     liveUrl: "#",
     githubUrl: "#"
   },
@@ -60,8 +60,8 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   layout="fill"
-                  objectFit="cover"
-                  className="object-cover transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
+                  objectFit="contain"
+                  className="object-contain transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
                   loading="lazy"
                 />
               </div>
