@@ -53,15 +53,15 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="rounded-xl overflow-hidden border border-slate-700 bg-slate-800/40 shadow-lg hover:shadow-purple-800/30 transition-shadow duration-300"
+              className="group rounded-xl overflow-hidden border border-slate-700 bg-slate-800/40 shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-purple-800/40"
             >
-              <div className="relative w-full aspect-video">
+              <div className="relative w-full aspect-video overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
                   layout="fill"
                   objectFit="cover"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
                   loading="lazy"
                 />
               </div>
