@@ -28,7 +28,7 @@ export default function Header() {
     }`}>
       <section
       id="home"
-      className="pt-8 flex items-center justify-center"
+      className="flex items-center justify-center"
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
