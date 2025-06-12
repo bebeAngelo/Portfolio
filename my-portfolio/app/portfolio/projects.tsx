@@ -59,8 +59,7 @@ export default function Projects() {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  layout="fill"
-                  objectFit="contain"
+                  fill
                   className="object-contain transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
                   loading="lazy"
                 />

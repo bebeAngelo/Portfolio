@@ -5,13 +5,29 @@ const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
-  console.log('Form Submitted:', formData);
-  setSubmitted(true);
-  setFormData({ name: '', email: '', message: '' });
-  setTimeout(() => setSubmitted(false), 5000);
+
+  try {
+    const res = await fetch('/api/contactApi', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    if (res.ok) {
+      setSubmitted(true);
+      setFormData({ name: '', email: '', message: '' });
+      setTimeout(() => setSubmitted(false), 5000);
+      console.log('Message sent successfully');
+    } else {
+      console.error('Error sending message');
+    }
+  } catch (err) {
+      console.error('Error sending email:', err);
+  }
 };
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
   setFormData({ ...formData, [e.target.name]: e.target.value });
