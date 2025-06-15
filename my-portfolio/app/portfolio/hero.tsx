@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Hi, Im a{' '}
+            Hi, I{`'`}m a{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
               React Front-end Developer
             </span>
