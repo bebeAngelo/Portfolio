@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Button } from '@mui/material';
 
 export default function Hero() {
   return (
@@ -34,13 +33,13 @@ export default function Hero() {
             >
               View My Work
             </button>
-            <button 
+            <a 
             className="cursor-pointer bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-medium rounded px-8 py-3 transition-colors duration-300"
-
-              // className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white font-medium rounded px-8 py-3 transition-colors duration-300 outline"
+            href='/JhonPaulGulleUpdatedResumeFinal.pdf'
+            download={'JhonPaulGulle_Resume'}
             >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
