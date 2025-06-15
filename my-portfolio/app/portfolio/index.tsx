@@ -32,8 +32,14 @@ export default function Header() {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-4xl font-bold text-white">
-            <span className="text-purple-400">Dev</span>Portfolio
+          <div className="text-4xl md:text-5xl font-bold relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 opacity-20 blur-xl rounded-full scale-150"></div>
+            <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-pulse">
+              Dev
+            </span>
+            <span className="relative text-white ml-1">
+              Portfolio
+            </span>
           </div>
 
           {/* Desktop Navigation */}
