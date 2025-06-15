@@ -27,7 +27,7 @@ export default function Header() {
       isScrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
       <section
-      id="home"
+      id="header"
       className="flex items-center justify-center"
     >
       <nav className="container mx-auto px-6 py-4">

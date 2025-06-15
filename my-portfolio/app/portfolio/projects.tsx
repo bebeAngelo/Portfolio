@@ -5,7 +5,7 @@ const projects = [
   {
     title: "JobsQ",
     description: "A modern job board platform built with React, Next.js, and TypeScript.",
-    image: "/img/jaypee1.png",
+    image: "/img/jobsqlogo.png",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#"
