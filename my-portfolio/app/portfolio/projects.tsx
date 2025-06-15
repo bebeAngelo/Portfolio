@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Rental Management System (RMS)",
     description: "A comprehensive rental management system built with React, Next.js, and Firebase.",
-    image: "/img/jaypee1.png",
+    image: "/img/rmslogo.png",
     technologies: ["React", "Material-UI", "Node.js", "Firebase"],
     liveUrl: "#",
     githubUrl: "#"
