@@ -19,9 +19,9 @@ const projects = [
     githubUrl: "#"
   },
   {
-    title: "Weather Dashboard",
-    description: "Beautiful weather dashboard with location-based forecasts.",
-    image: "/img/jaypee1.png",
+    title: "Resort Landing Page",
+    description: "A beautiful resort landing page built with React and Next.js.",
+    image: "/img/resort.jpg",
     technologies: ["React", "OpenWeather API", "Styled Components"],
     liveUrl: "#",
     githubUrl: "#"
@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio website showcasing my work and skills.",
-    image: "/img/jaypee1.png",
+    image: "/img/portfoliocard.png",
     technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
     liveUrl: "#",
     githubUrl: "#"
@@ -60,7 +60,7 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-contain transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
+                  className="object-cover transition-transform duration-300 group-hover:scale-110 group-hover:brightness-90"
                   loading="lazy"
                 />
               </div>
