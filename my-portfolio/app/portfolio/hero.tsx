@@ -28,11 +28,12 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <button 
+            <a 
+              href="#projects"
               className="cursor-pointer bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-medium rounded px-8 py-3 transition-colors duration-300"
             >
               View My Work
-            </button>
+            </a>
             <a 
             className="cursor-pointer bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-medium rounded px-8 py-3 transition-colors duration-300"
             href='/JhonPaulGulleUpdatedResumeFinal.pdf'

@@ -87,7 +87,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="px-4 py-2 text-sm bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all"
                   >
-                    Live Demo
+                    Private Project
                   </a>
                   <a
                     href={project.githubUrl}
@@ -95,7 +95,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="px-4 py-2 text-sm border border-purple-400 text-purple-400 rounded-lg hover:bg-purple-500 hover:text-white transition-all"
                   >
-                    View Code
+                    Submitted to Client
                   </a>
                 </div>
               </div>
